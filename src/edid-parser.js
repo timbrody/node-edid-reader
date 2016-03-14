@@ -676,6 +676,20 @@ Edid.prototype.getDtds = function()
     // Add a DTD length, to go to the next descriptor
     dtdIndex += this.DTD_LENGTH;
   }
+
+  // Add modelName parser
+  while (this.edidData[dtdIndex] === 0 && dtdIndex < DTD_END) {
+    if (this.edidData[dtdIndex + 3] === 0xFC) {
+      // Modelname
+      var modelname = '';
+      for (var k = dtdIndex + 5; this.edidData[k] !== 0x0A && this.edidData[k] !== 0x00; k++) {
+        modelname += String.fromCharCode(this.edidData[k]);
+      }
+      this.modelName = modelname.trim();
+    }
+    dtdIndex += this.DTD_LENGTH;
+  }
+
   return dtdArray;
 }
 

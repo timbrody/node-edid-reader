@@ -73,6 +73,26 @@ class EdidReader {
         });
       });
   }
+
+  // Load edid file
+  loadFile(path) {
+    return fs.readFileAsync(path)
+      .then((buffer) => {
+        let rawEdid = (buffer.toString('utf8'));
+        rawEdid = rawEdid.replace(/[\ \n]/g, '');
+        return this.formatEdid(rawEdid);
+      })
+      .then((rawEdid) => {
+        const edidParser = new EdidParser();
+        edidParser.setEdidData(rawEdid);
+        edidParser.parse();
+        this.monitors.push({
+          rawEdid,
+          edid: edidParser
+        });
+        return this;
+      });
+  }
 }
 
 module.exports = EdidReader;
