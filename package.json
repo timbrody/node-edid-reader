@@ -1,0 +1,27 @@
+{
+  "name": "edid-reader",
+  "version": "0.1.0",
+  "description": "Linux edid reader lib",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.carlipa.io:tools/node-edid-reader.git"
+  },
+  "keywords": [
+    "EDID",
+    "screen",
+    "reader"
+  ],
+  "author": "Lionel Penaud",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "glob": "^7.0.3",
+    "lodash": "^4.6.1"
+  }
+}
