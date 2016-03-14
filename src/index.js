@@ -45,7 +45,7 @@ class EdidReader {
   // Linux fetch EDID
   getLinuxSystemEdids() {
     // /sys/devices/pci0000\:00/0000\:00\:02.0/drm/card0/card0-HDMI-A-1/edid
-    glob('/sys/devices/**/edid')
+    return glob('/sys/devices/**/edid')
       .map((edidFileName) => fs.readFileAsync(edidFileName))
       .map((buffer) => buffer.toString('hex'))
       .filter((edid) => edid !== '');
