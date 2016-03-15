@@ -5,14 +5,14 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.carlipa.io:tools/node-edid-reader.git"
+    "url": "git@github.com:carlipa/node-edid-reader.git"
   },
   "keywords": [
     "EDID",
     "screen",
     "reader"
   ],
-  "author": "Lionel Penaud",
+  "author": "Carlipa",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^2.4.0",

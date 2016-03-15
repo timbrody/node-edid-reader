@@ -1,4 +1,5 @@
 // Source: https://raw.githubusercontent.com/dgallegos/edidreader/27956d35ada72da3713d5f2c92145964016abc2d/app/js/edid.js
+// Add modelname parsing (after DTDs)
 // Add module.exports = Edid; at the end of file
 
 /*eslint-disable */
@@ -683,7 +684,10 @@ Edid.prototype.getDtds = function()
       // Modelname
       var modelname = '';
       for (var k = dtdIndex + 5; this.edidData[k] !== 0x0A && this.edidData[k] !== 0x00; k++) {
-        modelname += String.fromCharCode(this.edidData[k]);
+        var char = String.fromCharCode(this.edidData[k]);
+        if (typeof char !== 'undefined') {
+          modelname += String.fromCharCode(this.edidData[k]);
+        }
       }
       this.modelName = modelname.trim();
     }

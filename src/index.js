@@ -10,7 +10,6 @@ const spawn = require('child_process').spawn;
 
 // Local imports
 const EdidParser = require('./edid-parser');
-// const edid = new EdidParser();
 
 class EdidReader {
   constructor() {
@@ -96,14 +95,3 @@ class EdidReader {
 }
 
 module.exports = EdidReader;
-
-
-// glob('/sys')
-// fs.readFile(__dirname + '/../edid', (err, result) => {
-//   const rawEdidInline = result.toString('hex');
-//   let rawEdid = rawEdidInline.split(/(?=(?:..)*$)/);
-//   rawEdid = _.map(rawEdid, (block) => parseInt(block.toUpperCase(), 16));
-//   edid.setEdidData(rawEdid);
-//   edid.parse();
-//   console.log(edid.validateHeader(), edid.eisaId, edid.productCode, edid.serialNumber);
-// });
