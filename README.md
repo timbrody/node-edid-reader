@@ -24,3 +24,9 @@ edidReader.scan()
       console.log('==========================');
     });
   });
+```
+
+Build
+```bash
+npm run build
+```

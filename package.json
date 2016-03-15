@@ -1,8 +1,8 @@
 {
   "name": "edid-reader",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Linux edid reader lib",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:carlipa/node-edid-reader.git"
@@ -12,17 +12,24 @@
     "screen",
     "reader"
   ],
+  "scripts": {
+    "build": "babel src -d lib"
+  },
   "engines": {
     "node": ">=4.0.0"
   },
   "author": "Carlipa",
   "license": "MIT",
   "devDependencies": {
+    "babel": "^6.0.0",
+    "babel-eslint": "^5.0.0",
+    "babel-preset-es2015-node4": "^2.0.3",
+    "babel-preset-stage-1": "^6.5.0",
     "eslint": "^2.4.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.1"
+    "eslint-config-airbnb": "^6.1.0"
   },
   "dependencies": {
+    "babel-cli": "^6.6.5",
     "bluebird": "^3.3.4",
     "glob": "^7.0.3",
     "lodash": "^4.6.1"

@@ -1,0 +1,334 @@
+{
+  "ACI": {
+    "fullName": "Asus (ASUSTeK Computer Inc.)",
+    "name": "Asus"
+  },
+  "ACR": {
+    "fullName": "Acer America Corp.",
+    "name": "Acer"
+  },
+  "ACT": {
+    "fullName": "Targa",
+    "name": "Targa"
+  },
+  "ADI": {
+    "fullName": "ADI Corporation http://www.adi.com.tw",
+    "name": "ADI Corporation"
+  },
+  "AMW": {
+    "fullName": "AMW",
+    "name": "AMW"
+  },
+  "AOC": {
+    "fullName": "AOC International (USA) Ltd.",
+    "name": "AOC"
+  },
+  "API": {
+    "fullName": "Acer America Corp.",
+    "name": "Acer"
+  },
+  "APP": {
+    "fullName": "Apple Computer, Inc.",
+    "name": "Apple"
+  },
+  "ART": {
+    "fullName": "ArtMedia",
+    "name": "ArtMedia"
+  },
+  "AST": {
+    "fullName": "AST Research",
+    "name": "AST Research"
+  },
+  "AUO": {
+    "fullName": "AU Optronics",
+    "name": "AU Optronics"
+  },
+  "BMM": {
+    "fullName": "BMM",
+    "name": "BMM"
+  },
+  "BNQ": {
+    "fullName": "BenQ Corporation",
+    "name": "BenQ"
+  },
+  "BOE": {
+    "fullName": "BOE Display Technology",
+    "name": "BOE Display Technology"
+  },
+  "CPL": {
+    "fullName": "Compal Electronics, Inc. / ALFA",
+    "name": "Compal Electronics"
+  },
+  "CPQ": {
+    "fullName": "COMPAQ Computer Corp.",
+    "name": "COMPAQ"
+  },
+  "CTX": {
+    "fullName": "CTX – Chuntex Electronic Co.",
+    "name": "CTX"
+  },
+  "DEC": {
+    "fullName": "Digital Equipment Corporation",
+    "name": "Digital Equipment Corporation"
+  },
+  "DEL": {
+    "fullName": "Dell Computer Corp.",
+    "name": "Dell"
+  },
+  "DPC": {
+    "fullName": "Delta Electronics, Inc.",
+    "name": "Delta Electronics"
+  },
+  "DWE": {
+    "fullName": "Daewoo Telecom Ltd",
+    "name": "Daewoo Telecom"
+  },
+  "ECS": {
+    "fullName": "ELITEGROUP Computer Systems",
+    "name": "ELITEGROUP Computer Systems"
+  },
+  "EIZ": {
+    "fullName": "EIZO",
+    "name": "EIZO"
+  },
+  "EPI": {
+    "fullName": "Envision Peripherals, Inc.",
+    "name": "Envision Peripherals"
+  },
+  "FCM": {
+    "fullName": "Funai Electric Company of Taiwan",
+    "name": "Funai Electric Company"
+  },
+  "FUS": {
+    "fullName": "Fujitsu Siemens",
+    "name": "Fujitsu Siemens"
+  },
+  "GSM": {
+    "fullName": "LG Electronics Inc. (GoldStar Technology, Inc.)",
+    "name": "LG"
+  },
+  "GWY": {
+    "fullName": "Gateway 2000",
+    "name": "Gateway 2000"
+  },
+  "HEI": {
+    "fullName": "Hyundai Electronics Industries Co., Ltd.",
+    "name": "Hyundai"
+  },
+  "HIQ": {
+    "fullName": "Hyundai ImageQuest",
+    "name": "Hyundai"
+  },
+  "HIT": {
+    "fullName": "Hitachi",
+    "name": "Hitachi"
+  },
+  "HSD": {
+    "fullName": "Hannspree Inc",
+    "name": "Hannspree"
+  },
+  "HSL": {
+    "fullName": "Hansol Electronics",
+    "name": "Hansol"
+  },
+  "HTC": {
+    "fullName": "Hitachi Ltd. / Nissei Sangyo America Ltd.",
+    "name": "Hitachi"
+  },
+  "HWP": {
+    "fullName": "Hewlett Packard",
+    "name": "HP"
+  },
+  "IBM": {
+    "fullName": "IBM PC Company",
+    "name": "IBM"
+  },
+  "ICL": {
+    "fullName": "Fujitsu ICL",
+    "name": "Fujitsu"
+  },
+  "IFS": {
+    "fullName": "InFocus",
+    "name": "InFocus"
+  },
+  "IQT": {
+    "fullName": "Hyundai",
+    "name": "Hyundai"
+  },
+  "IVM": {
+    "fullName": "Idek Iiyama North America, Inc.",
+    "name": "Iiyama"
+  },
+  "KDS": {
+    "fullName": "KDS USA",
+    "name": "KDS"
+  },
+  "KFC": {
+    "fullName": "KFC Computek",
+    "name": "KFC Computek"
+  },
+  "LEN": {
+    "fullName": "Lenovo",
+    "name": "Lenovo"
+  },
+  "LGD": {
+    "fullName": "LG Display",
+    "name": "LG"
+  },
+  "LKM": {
+    "fullName": "ADLAS / AZALEA",
+    "name": "ADLAS / AZALEA"
+  },
+  "LNK": {
+    "fullName": "LINK Technologies, Inc.",
+    "name": "LINK Technologies"
+  },
+  "LPL": {
+    "fullName": "LG Philips",
+    "name": "LG Philips"
+  },
+  "LTN": {
+    "fullName": "Lite-On",
+    "name": "Lite-On"
+  },
+  "MAG": {
+    "fullName": "MAG InnoVision",
+    "name": "MAG InnoVision"
+  },
+  "MAX": {
+    "fullName": "Maxdata Computer GmbH",
+    "name": "Maxdata"
+  },
+  "MEI": {
+    "fullName": "Panasonic Comm. & Systems Co.",
+    "name": "Panasonic"
+  },
+  "MEL": {
+    "fullName": "Mitsubishi Electronics",
+    "name": "Mitsubishi"
+  },
+  "MIR": {
+    "fullName": "miro Computer Products AG",
+    "name": "miro Computer Products"
+  },
+  "MTC": {
+    "fullName": "MITAC",
+    "name": "MITAC"
+  },
+  "NAN": {
+    "fullName": "NANAO",
+    "name": "NANAO"
+  },
+  "NEC": {
+    "fullName": "NEC Technologies, Inc.",
+    "name": "NEC"
+  },
+  "NOK": {
+    "fullName": "Nokia",
+    "name": "Nokia"
+  },
+  "NVD": {
+    "fullName": "Nvidia",
+    "name": "Nvidia"
+  },
+  "OQI": {
+    "fullName": "OPTIQUEST",
+    "name": "OPTIQUEST"
+  },
+  "PBN": {
+    "fullName": "Packard Bell",
+    "name": "Packard Bell"
+  },
+  "PCK": {
+    "fullName": "Daewoo",
+    "name": "Daewoo"
+  },
+  "PDC": {
+    "fullName": "Polaroid",
+    "name": "Polaroid"
+  },
+  "PGS": {
+    "fullName": "Princeton Graphic Systems",
+    "name": "Princeton Graphic Systems"
+  },
+  "PHL": {
+    "fullName": "Philips Consumer Electronics Co.",
+    "name": "Philips"
+  },
+  "PRT": {
+    "fullName": "Princeton",
+    "name": "Princeton"
+  },
+  "REL": {
+    "fullName": "Relisys",
+    "name": "Relisys"
+  },
+  "SAM": {
+    "fullName": "Samsung",
+    "name": "Samsung"
+  },
+  "SEC": {
+    "fullName": "Seiko Epson Corporation",
+    "name": "Seiko Epson"
+  },
+  "SMI": {
+    "fullName": "Smile",
+    "name": "Smile"
+  },
+  "SMC": {
+    "fullName": "Samtron",
+    "name": "Samtron"
+  },
+  "SNI": {
+    "fullName": "Siemens Nixdorf",
+    "name": "Siemens"
+  },
+  "SNY": {
+    "fullName": "Sony Corporation",
+    "name": "Sony"
+  },
+  "SPT": {
+    "fullName": "Sceptre",
+    "name": "Sceptre"
+  },
+  "SRC": {
+    "fullName": "Shamrock Technology",
+    "name": "Shamrock Technology"
+  },
+  "STN": {
+    "fullName": "Samtron",
+    "name": "Samtron"
+  },
+  "STP": {
+    "fullName": "Sceptre",
+    "name": "Sceptre"
+  },
+  "TAT": {
+    "fullName": "Tatung Co. of America, Inc.",
+    "name": "Tatung"
+  },
+  "TRL": {
+    "fullName": "Royal Information Company",
+    "name": "Royal Information Company"
+  },
+  "TSB": {
+    "fullName": "Toshiba, Inc.",
+    "name": "Toshiba"
+  },
+  "UNM": {
+    "fullName": "Unisys Corporation",
+    "name": "Unisys Corporation"
+  },
+  "VSC": {
+    "fullName": "ViewSonic Corporation",
+    "name": "ViewSonic"
+  },
+  "WTC": {
+    "fullName": "Wen Technology",
+    "name": "Wen Technology"
+  },
+  "ZCM": {
+    "fullName": "Zenith Data Systems",
+    "name": "Zenith Data System"
+  }
+}

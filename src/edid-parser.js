@@ -972,7 +972,7 @@ Edid.prototype.parseVideoDataBlock = function(startAddress, blockLength)
 Edid.prototype.parseVendorDataBlockHDMI14 = function(startAddress, blockLength, vendorBlock)
 {
   // Subtract one, so the indexing matches the HDMI Specification
-  vsdbAddress = startAddress - 1;
+  var vsdbAddress = startAddress - 1;
 
   var PHYSICAL_ADDRESS_1 = 4;
   var PHYSICAL_ADDRESS_2 = 5;
@@ -1060,7 +1060,7 @@ Edid.prototype.parseVendorDataBlockHDMI14 = function(startAddress, blockLength, 
 Edid.prototype.parseVendorDataBlockHDMI20 = function(startAddress, blockLength, vendorBlock)
 {
   // Subtract one, so the indexing matches the HDMI Specification
-  vsdbAddress = startAddress - 1;
+  var vsdbAddress = startAddress - 1;
 
   var FIELD_ADDRESS = 0;
   var FIELD_MASK = 0x0;
@@ -1119,7 +1119,7 @@ Edid.prototype.parseVendorDataBlock = function(startAddress, blockLength)
   vendorBlock.length = blockLength;
 
   // Subtract one, so the indexing matches the HDMI Specification
-  vsdbAddress = startAddress - 1;
+  var vsdbAddress = startAddress - 1;
 
   var IEEE_REG_IDENTIFIER_1 = 1;
   var IEEE_REG_IDENTIFIER_2 = 2;
