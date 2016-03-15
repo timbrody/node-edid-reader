@@ -1,6 +1,6 @@
 {
   "name": "edid-reader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Linux edid reader lib",
   "main": "src/index.js",
   "repository": {
@@ -12,6 +12,9 @@
     "screen",
     "reader"
   ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "author": "Carlipa",
   "license": "MIT",
   "devDependencies": {
