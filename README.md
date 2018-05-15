@@ -14,16 +14,17 @@ Fetching local system edid
 const EdidReader = require('edid-reader');
 const edidReader = new EdidReader();
 edidReader.scan()
-  .then(() => {
+.then(() => {
+  console.log('==========================');
+  edidReader.monitors.forEach((monitor) => {
+    console.log(`Vendor : ${monitor.vendor}`);
+    console.log(`Model  : ${monitor.modelName}`);
+    console.log(`EISA   : ${monitor.eisaId}`);
+    console.log(`Code   : ${monitor.productCode}`);
+    console.log(`Serial : ${monitor.serialNumber}`);
     console.log('==========================');
-    edidScanner.monitors.forEach((monitor) => {
-      console.log(`EISA :   ${monitor.edid.eisaId}`);
-      console.log(`Code :   ${monitor.edid.productCode}`);
-      console.log(`Serial : ${monitor.edid.serialNumber}`);
-      console.log(`Model :  ${monitor.edid.modelName}`);
-      console.log('==========================');
-    });
   });
+});
 ```
 
 Build
