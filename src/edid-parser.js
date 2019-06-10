@@ -684,8 +684,8 @@ Edid.prototype.getDtds = function()
       // Modelname
       var modelname = '';
       for (var k = dtdIndex + 5; this.edidData[k] !== 0x0A && this.edidData[k] !== 0x00; k++) {
-        var char = String.fromCharCode(this.edidData[k]);
-        if (typeof char !== 'undefined') {
+        var c = String.fromCharCode(this.edidData[k]);
+        if (typeof c !== 'undefined') {
           modelname += String.fromCharCode(this.edidData[k]);
         }
       }
